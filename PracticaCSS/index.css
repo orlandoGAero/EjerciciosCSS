@@ -1,0 +1,53 @@
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.arriba {
+    padding: 3rem;
+    min-height: 500px;
+    /* background-clip: padding-box; */
+    background-image: 
+    radial-gradient(rgba(56, 156, 101, .3), rgba(56, 156, 101, 0.8));
+    border: 10px dashed #000;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+}
+
+.parrafo{
+    text-align: center;
+    position: relative;
+    font-size: 100px;
+    top: 124px;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.fondo {
+    background-image: url("http://wallpapers4screen.com/Uploads/23-4-2018/37908/thumb2-scuderia-ferrari-4k-vettel-motion-blur-ferrari-sf71h.jpg");
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.fondo2 {
+    background-image: url("http://wallpapers4screen.com/Temp/17-9-2018/bmw-m4-yellow-sports-coupe-exterior-yellow-tuning-m4-gold-wheels-wallpapers4screen.com-1280x720.jpg");
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fondo3 {
+    background-image: url("http://wallpapers4screen.com/Temp/17-9-2018/ferrari-458-italia-maserati-granturismo-night-italian-cars-black-granturismo-wallpapers4screen.com-1024x768.jpg");
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}

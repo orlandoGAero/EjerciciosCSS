@@ -1,0 +1,49 @@
+body {
+    background-image: url("http://wallpapers4screen.com/Temp/17-9-2018/bmw-m4-yellow-sports-coupe-exterior-yellow-tuning-m4-gold-wheels-wallpapers4screen.com-1280x720.jpg");
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.text {
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-color: rgba(11, 59, 114, 0.6);
+  padding: 3rem;
+}
+
+.boton-ver {
+    font-size: 20px;
+    width: 150px;
+    background-color: rgb(10, 190, 160);
+    color: #000;
+    border: none;
+    padding: .5rem;
+    font-weight: bold;
+    border: 1px solid  rgba(10, 190, 93, 0);
+}
+
+.boton-ver:hover {
+    cursor: pointer;
+    background-color: rgba(11, 107, 93, 0.8);
+    color: #fff;
+}
+
+.boton-ver:active {
+    border: 1px solid  rgba(10, 190, 93, 1);
+}
+.boton-ver:focus{
+   outline: none !important; /* chrome*/
+}
+
+.boton-ver::-moz-focus-inner {
+    border: 0 !important;
+  }
